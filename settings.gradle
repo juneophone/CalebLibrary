@@ -1,0 +1,3 @@
+include ':CalebSDK'
+include ':app'
+rootProject.name = "CalebLibrary"

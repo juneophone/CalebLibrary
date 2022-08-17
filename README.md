@@ -1,1 +1,1 @@
-# JWLibrary
+# This is a private android library
