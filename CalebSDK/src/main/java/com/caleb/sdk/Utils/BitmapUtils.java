@@ -18,6 +18,10 @@ import java.io.IOException;
 // Bitmap Utils
 public class BitmapUtils {
 
+    public BitmapUtils(){
+
+    }
+
     // Bitmap to Byte array
     public static byte[] BitmapToByteArray(Bitmap bitmap, Bitmap.CompressFormat format) {
         ByteArrayOutputStream stream = new ByteArrayOutputStream();
