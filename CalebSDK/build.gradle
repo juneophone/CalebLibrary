@@ -59,8 +59,9 @@ task copyAAR(type: Copy) {
 }
 
 /*執行順序:
-1. Tool bar -> Build -> Make Module CalebLibrary.CalebSDk
-2. 打開右邊 Gradle windows -> CalebSDk -> Tasks -> other -> buildJAR
+1. 從左邊視窗 Project -> CalebSDK -> 選取後
+2. Tool bar -> Build -> Make Module CalebLibrary.CalebSDk
+3. 打開右邊 Gradle windows -> CalebSDk -> Tasks -> other -> buildJAR
  */
 copyAAR.dependsOn(delRelease)
 buildJAR.dependsOn(copyAAR)
